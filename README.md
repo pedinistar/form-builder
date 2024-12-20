@@ -1,50 +1,80 @@
-# Welcome to your Expo app 👋
+# Form Builder App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This app allows you to
 
-## Get started
+- Create
+- Edit
+- Preview
+- Fill
+- View responses
 
-1. Install dependencies
+  for your forms.
 
+## Screens Explained
+
+### 1. **Home Screen**
+
+The Home Screen displays a list of all the forms that have been created so far.
+
+- **Form List**: Displays all forms you have created.
+- **Preview Form**:
+  - When you click on any form in the list, it takes you to the Preview Form Screen.
+
+### 2. **Preview Form Screen**
+
+The Preview Form Screen shows a read-only view of the form you created.
+
+- **View-Only Mode**: This screen shows the form as a preview.
+- **Buttons at the Bottom**:
+  - **Edit**: Allows you to edit the form.
+  - **Fill**: Takes you to the form to fill it out.
+  - **Responses**: Takes you to a page where you can view form responses.
+
+### 3. **Edit Screen**
+
+The Edit Screen is where we can update our already created form. The inputs are already filled with the default values of our form.
+
+### 4. **Fill Screen**
+
+The Fill Screen is where you can test your form by filling it yourself and submit the form.
+
+### 5. **Responses Screen**
+
+The Response Screen is where you would see all the responses submited so far.
+
+### 6. **Create New Form Screen**
+
+The Create New Form screen is where you can create new forms using a form builder interface.
+
+- **Form Builder**: A UI to add and manage questions for the form.
+- **Question Types**:
+  - **Text**(✅): Allows the user to add a question with a text input field.
+  - **Checkbox**(working): Allows the user to add a multiple-choice question with checkbox options.
+  - **Grid**(working): Allows the user to add a grid-style question where users can select values from a range.
+- **Form Customization**:
+  - Add a title for the form.
+  - Upload a header image for the form.
+  - Add and manage questions.
+  - Also can add images to the questions.
+
+### 7. **Save Form**:
+
+Once the form is created, you can save it, and it will appear in the Home Screen list.
+
+---
+
+## Backend
+
+Working on it as i am still learning the backend, its causing a lot of error and taking time while building the front-end part.
+
+---
+
+## Installation
+
+1. Clone the repository to your local machine.
+2. Install dependencies using the package manager of your choice:
    ```bash
    npm install
+   # or
+   yarn install
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
