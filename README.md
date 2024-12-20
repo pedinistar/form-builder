@@ -49,7 +49,7 @@ The Create New Form screen is where you can create new forms using a form builde
 - **Form Builder**: A UI to add and manage questions for the form.
 - **Question Types**:
   - **Text**(✅): Allows the user to add a question with a text input field.
-  - **Checkbox**(working): Allows the user to add a multiple-choice question with checkbox options.
+  - **Checkbox**(✅): Allows the user to add a multiple-choice question with checkbox options.
   - **Grid**(working): Allows the user to add a grid-style question where users can select values from a range.
 - **Form Customization**:
   - Add a title for the form.
