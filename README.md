@@ -10,6 +10,16 @@ This app allows you to
 
   for your forms.
 
+  ---
+
+## Personal Note 
+
+Thank you for reviewing my submission. I wanted to take a moment to explain that while I could not complete the backend functionality due to my current skill level in backend development, I have put in significant effort to create a functional and intuitive frontend for this task. 
+
+I am actively learning backend technologies and wanted to demonstrate my dedication and ability to learn quickly by submitting this project. I hope the progress I’ve made so far reflects my enthusiasm and potential to grow as a developer.
+
+---
+
 ## Screens Explained
 
 ### 1. **Home Screen**
@@ -63,9 +73,9 @@ Once the form is created, you can save it, and it will appear in the Home Screen
 
 ---
 
-## Backend
+## Backend (Work in Progress)
 
-Working on it as i am still learning the backend, its causing a lot of error and taking time while building the front-end part.
+I am still learning backend development and faced challenges implementing MongoDB and Express for this project. However, I am committed to mastering these technologies and am currently dedicating extra time to improving in this area.
 
 ---
 
@@ -87,3 +97,4 @@ Working on it as i am still learning the backend, its causing a lot of error and
    # or
    yarn install
    ```
+3. Or Download Expo Go and use this link `https://expo.dev/preview/update?message=Nativewind%20Configured&updateRuntimeVersion=1.0.0&createdAt=2024-12-20T11%3A37%3A42.163Z&slug=exp&projectId=83da49df-dedc-4903-83f3-8d6ea9801e4c&group=949bb833-c0f3-4a0c-822d-55b589ed91d4` 
