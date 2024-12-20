@@ -69,6 +69,15 @@ Working on it as i am still learning the backend, its causing a lot of error and
 
 ---
 
+### Technology Stack
+1. **Frontend:**
+   - React Native
+   - NativeWind (Tailwind CSS for React Native)
+   - React Navigation (for screen transitions)
+2. **Development Tools:**
+   - Expo (for quick setup and testing)
+
+
 ## Installation
 
 1. Clone the repository to your local machine.
