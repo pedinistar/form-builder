@@ -20,6 +20,19 @@ I am actively learning backend technologies and wanted to demonstrate my dedicat
 
 ---
 
+## Installation
+
+1. Clone the repository to your local machine.
+2. Install dependencies using the package manager of your choice:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. Or Download Expo Go and use this link -> [Link To App](https://expo.dev/preview/update?message=Nativewind%20Configured&updateRuntimeVersion=1.0.0&createdAt=2024-12-20T11%3A37%3A42.163Z&slug=exp&projectId=83da49df-dedc-4903-83f3-8d6ea9801e4c&group=949bb833-c0f3-4a0c-822d-55b589ed91d4) 
+
+---
+
 ## Screens Explained
 
 ### 1. **Home Screen**
@@ -87,14 +100,4 @@ I am still learning backend development and faced challenges implementing MongoD
 2. **Development Tools:**
    - Expo (for quick setup and testing)
 
-
-## Installation
-
-1. Clone the repository to your local machine.
-2. Install dependencies using the package manager of your choice:
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-3. Or Download Expo Go and use this link `https://expo.dev/preview/update?message=Nativewind%20Configured&updateRuntimeVersion=1.0.0&createdAt=2024-12-20T11%3A37%3A42.163Z&slug=exp&projectId=83da49df-dedc-4903-83f3-8d6ea9801e4c&group=949bb833-c0f3-4a0c-822d-55b589ed91d4` 
+---
